@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: #2782c5;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navegation {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navegation a {
+  color: white;
+  text-decoration: none;
+}
+.copy {
+  opacity: 0.5;
+}
