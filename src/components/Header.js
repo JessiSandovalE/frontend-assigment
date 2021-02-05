@@ -22,6 +22,8 @@ const Header = () => {
       </div>
       <div className='session'>
         <div className="bell">Campana</div>
+        <div className="user">User</div>
+        <div className="config">Config</div>
       </div>
     </div>
   )

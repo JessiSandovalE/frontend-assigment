@@ -1,14 +1,17 @@
 import React from 'react';
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Article from './components/Article'
 
+import './App.css'
 
 function App() {
   return (
-    <div >
+    <div className='App'>
       <Header />
-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil unde ex molestiae laborum magnam facere voluptates magni, ab ullam possimus quam obcaecati eius quidem, impedit voluptas vero eos neque!
+        <div className='content'>
+          <Article />
+        </div>
       <Footer/>
     </div>
   );
