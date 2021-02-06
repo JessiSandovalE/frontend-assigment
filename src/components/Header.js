@@ -14,7 +14,7 @@ const Header = () => {
         <input type='text' placeholder='¿Que estas buscando?' />
       </div>
       <div className='home'>
-        <i className='icon-home'></i>
+        <i className='icon-home'></i> <span>Inicio</span>
         <i className='icon-down'></i>
       </div>
       <div className='session'>

@@ -26,7 +26,6 @@
       border: none;
       margin-right: 2px;
     }
-    
     input {
       border: none;
       color: #c9c9c9;
@@ -42,9 +41,12 @@
     display: flex;
     margin-left: 40px;
     .icon-down{
-      margin-top: 5px;
+      margin-top: 3px;
       margin-left: 10px;
       align-self: baseline;
+    }
+    span{
+      margin-left: 10px;
     }
   }
   .session {
