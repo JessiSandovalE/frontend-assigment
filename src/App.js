@@ -1,21 +1,16 @@
 import React from 'react';
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Article from './components/Article'
-import Aside from './components/Aside'
+import Layout from './components/Layout'
 
-import './App.css'
+import { AsideProvider } from './context/aside'
+import { ArticleProvider } from './context/article'
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-        <div className='content'>
-          <Article />
-          <Aside />
-        </div>
-      <Footer/>
-    </div>
+    <AsideProvider>
+      <ArticleProvider>
+        <Layout/>
+      </ArticleProvider>
+    </AsideProvider>
   );
 }
 

@@ -1,0 +1,15 @@
+.contentApp{
+  background-color: #E8E6E6;
+  overflow:hidden;
+  .content {
+    width: 100%;
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px){
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

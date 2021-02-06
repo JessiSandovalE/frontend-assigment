@@ -3,7 +3,7 @@ import { createContext, useState } from 'react'
 const AsideContext = createContext()
 const { Provider, Consumer } = AsideContext
 
-const AsideProvider = ({ children }) => {
+const AsideProvider = ( {children} ) => {
   const [articles, setArticles] = useState([
     {
       id: 1,
@@ -16,7 +16,7 @@ const AsideProvider = ({ children }) => {
     },
     {
       id: 2,
-      image:'../assets/img/notice.png',
+      image:'./assets/img/notice.png',
       title: 'Lorem Ipsum Dolor: Volutpat consequat',
       autor: 'por: Lorem Ipsum Dolor',
       score: 40,
@@ -25,7 +25,7 @@ const AsideProvider = ({ children }) => {
     },
     {
       id: 3,
-      image:'../assets/img/notice.png',
+      image:'./assets/img/notice.png',
       title: 'Lorem Ipsum Dolor: Volutpat consequat',
       autor: 'por: Lorem Ipsum Dolor',
       score: 40,
@@ -34,7 +34,7 @@ const AsideProvider = ({ children }) => {
     },
     {
       id: 4,
-      image:'../assets/img/notice.png',
+      image:'./assets/img/notice.png',
       title: 'Lorem Ipsum Dolor: Volutpat consequat',
       autor: 'por: Lorem Ipsum Dolor',
       score: 40,
@@ -43,7 +43,7 @@ const AsideProvider = ({ children }) => {
     },
     {
       id: 5,
-      image:'../assets/img/notice.png',
+      image:'./assets/img/notice.png',
       title: 'Lorem Ipsum Dolor: Volutpat consequat',
       autor: 'por: Lorem Ipsum Dolor',
       score: 40,

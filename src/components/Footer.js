@@ -1,11 +1,11 @@
 import React from 'react'
-import '../assets/styles/Footer.scss'
-import logo from '../assets/img/logo.png'
+import '../styles/Footer.scss'
+
 const Footer = () => {
   return (
     <div className='footer'>
       <div className='logo'>
-        <img src={logo} alt='Logo DocRed' />
+        <img src='./assets/img/logo.png' alt='Logo DocRed' />
       </div>
       <div className='navegation'>
         <a href=''>Preguntas frecuentes</a>

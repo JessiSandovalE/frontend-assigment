@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-eye:before{
+  color:#908e8e;
+}
+.icon-textBox:before {
+  color: #9AC2E3;
+  margin-top:10px;
+}
+.icon-start:before{
+  color: #9AC2E3
+}
+
+.icon-arrow-up-right2:before{
+  color: #9AC2E3
+}
+.icon-down {
+  font-size: 15px;
+}
