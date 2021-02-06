@@ -36,8 +36,9 @@ Puntos extras:
 - Linting y Prettier
 - Docker
 
-## Installing?
+## Instalación
   npm install
 
-## Start Project in Local
+## Correr proyecto de manera local
   npm run start
+
