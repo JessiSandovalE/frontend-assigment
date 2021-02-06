@@ -35,3 +35,9 @@ Puntos extras:
 - Unit testing.
 - Linting y Prettier
 - Docker
+
+## Installing?
+  npm install
+
+## Start Project in Local
+  npm run start
