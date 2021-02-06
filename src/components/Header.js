@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <div className='search'>
         <button className='searchButton'>
-          <i className='icon-search'></i>
+          <i className='icon-search2'></i>
         </button>
         <input type='text' placeholder='¿Que estas buscando?' />
       </div>
